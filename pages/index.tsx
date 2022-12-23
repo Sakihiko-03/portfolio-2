@@ -16,10 +16,8 @@ export default function Home() {
   if (!mounted) return null;
   console.log(theme);
 
-
-
   return (
-    <div className="dark:bg-gray-900 light:bg-gray-100 overflow-hidden min-h-screen">
+    <div className='dark:bg-zinc-900 light:bg-gray-100 h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-amber-400/80'>
       <Head>
         <title>Supakorn's Portfolio</title>
       </Head>
