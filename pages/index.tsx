@@ -8,6 +8,7 @@ import { motion, AnimateSharedLayout, AnimatePresence } from 'framer-motion';
 import * as Sentry from "@sentry/nextjs";
 import Head from 'next/head';
 import Header from '../components/Header';
+import Profile from '../components/Profile';
 
 export default function Home() {
 
@@ -23,57 +24,8 @@ export default function Home() {
         <title>Supakorn's Portfolio</title>
       </Head>
       <Header />
-      {/* <div className='flex justify-end m-4'>
-        <button
-          className=" rounded-full dark:bg-white dark:bg-opacity-10 bg-gray-500 bg-opacity-10 hover:bg-gray-400 hover:bg-opacity-5  w-9 h-9 m-1"
-          onClick={() => { setTheme(theme === 'dark' ? 'light' : 'dark') }} type='button'>
-          {theme === 'dark' ? (
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" className="w-6 h-6 mx-auto">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
-            </svg>
-          ) : (
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" className="w-6 h-6 mx-auto">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
-            </svg>
-          )}
-        </button>
-      </div> */}
+      <Profile />
       <div className='mx-12 md:mx-24 lg:mx-32 mb-12 lg:mb-16'>
-        <div className="grid grid-cols-3 mb-8 gap-4">
-          <motion.div
-            initial={{ rotate: 180, scale: 0 }}
-            animate={{ rotate: 360, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 150,
-              damping: 20
-            }}
-          >
-            <div className='object-cover drop-shadow-lg'>
-              <Image
-                src="/profile.jpg"
-                alt=""
-                width='120'
-                height='120'
-                layout="responsive"
-              />
-            </div>
-          </motion.div>
-          <div className='col-span-2 my-auto'>
-            {/* <Text
-            h1
-            size={40}
-            css={{
-              textGradient: "45deg, $yellow600 -20%, $red600 100%",
-            }}
-            weight="bold"
-          >
-            Supakorn Suriyamongkol
-          </Text> */}
-            <p className="text-2xl md:text-4xl lg:text-6xl font-bold dark:text-white text-black">Supakorn</p>
-            <p className="text-2xl md:text-4xl lg:text-6xl font-bold dark:text-white text-black">Suriyamongkol</p>
-          </div>
-        </div>
         <div className='my-8 text-slate-400'>
           <p className='dark:text-white text-black font-medium text-xl'>PROFILE</p>
           <p className=''>
