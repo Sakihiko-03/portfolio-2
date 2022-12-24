@@ -7,6 +7,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimateSharedLayout, AnimatePresence } from 'framer-motion';
 import * as Sentry from "@sentry/nextjs";
 import Head from 'next/head';
+import Header from '../components/Header';
 
 export default function Home() {
 
@@ -21,7 +22,8 @@ export default function Home() {
       <Head>
         <title>Supakorn's Portfolio</title>
       </Head>
-      <div className='flex justify-end m-4'>
+      <Header />
+      {/* <div className='flex justify-end m-4'>
         <button
           className=" rounded-full dark:bg-white dark:bg-opacity-10 bg-gray-500 bg-opacity-10 hover:bg-gray-400 hover:bg-opacity-5  w-9 h-9 m-1"
           onClick={() => { setTheme(theme === 'dark' ? 'light' : 'dark') }} type='button'>
@@ -35,7 +37,7 @@ export default function Home() {
             </svg>
           )}
         </button>
-      </div>
+      </div> */}
       <div className='mx-12 md:mx-24 lg:mx-32 mb-12 lg:mb-16'>
         <div className="grid grid-cols-3 mb-8 gap-4">
           <motion.div
