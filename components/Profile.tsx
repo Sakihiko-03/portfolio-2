@@ -14,7 +14,8 @@ export default function Hero({ }: Props) {
         delaySpeed: 2000,
     })
     return (
-        <div className='h-3/4 items-center justify-center grid md:grid-cols-3 text-center overflow-hidden'>
+        <>
+        <div className='relative z-10 h-3/4 items-center justify-center grid md:grid-cols-3 text-center overflow-hidden'>
             <img
                 className='relative rounded-full lg:h-80 lg:w-80 h-48 w-48 mx-auto object-cover'
                 src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'
@@ -28,5 +29,8 @@ export default function Hero({ }: Props) {
                 </h1>
             </div>
         </div>
+        {/*sticky or absolute*/}
+        <div className='sticky w-full top-8 bg-[#F7AB0A]/10 left-0 h-3/4 -skew-y-12'></div>
+        </>
     )
 }

@@ -15,7 +15,7 @@ export default function Header({ }: Props) {
     console.log(theme);
 
     return (
-        <header className='p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
+        <header className='relative p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
             <motion.div
                 initial={{
                     x: -500,
