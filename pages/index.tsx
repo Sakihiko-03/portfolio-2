@@ -9,6 +9,7 @@ import * as Sentry from "@sentry/nextjs";
 import Head from 'next/head';
 import Header from '../components/Header';
 import Profile from '../components/Profile';
+import Timeline from '../components/Timeline';
 
 export default function Home() {
 
@@ -112,20 +113,7 @@ export default function Home() {
             <p className='text-slate-400'>lek17622@gmail.com</p>
           </div>
         </div>
-        <div className='my-8 text-slate-400'>
-          <p className='dark:text-white text-black font-medium text-xl'>TRAINING</p>
-          <p className=''>Basic Python, Silpakorn University, 2 days</p>
-          <p className=''>Programming and Image Processing using Python with OpenCV, Silpakorn University, 2 days</p>
-          <p className=''>Develop Mobile Web Application with HTML, CSS, JavaScript, Bootstrap and php, Silpakorn University, 2 days</p>
-          <p className=''>Speech-to-Text and Text-to-Speech programming, Silpakorn University, 1 day</p>
-          <p className=''>Create LINE Chatbot using Python with Flask and wit.ai, Silpakorn University, 1 day</p>
-          <p className=''>Image Classification by CNN Model using Python with TensorFlow, Silpakorn University, 1 day</p>
-        </div>
-        <div className='my-8 text-slate-400'>
-          <p className='dark:text-white text-black font-medium text-xl'>EXPERIENCE</p>
-          <p className=''>Internships and Cooperative Education</p>
-          <p className=''>At Provincial Electricity Authority, Bangkok, 6 months</p>
-        </div>
+        <Timeline />
         <div className='my-8'>
           <p className='dark:text-white text-black font-medium text-xl mb-4'>SKILLS</p>
           <div className='grid grid-cols-2 lg:grid-cols-5 gap-8 text-slate-400'>
