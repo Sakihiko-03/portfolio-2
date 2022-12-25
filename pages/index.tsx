@@ -12,6 +12,7 @@ import Profile from '../components/Profile';
 import Timeline from '../components/Timeline';
 import Hobby from '../components/Hobby';
 import Skill from '../components/Skill';
+import Test1 from '../components/Test1';
 
 export default function Home() {
 
@@ -72,6 +73,28 @@ export default function Home() {
             The KAP Token is a digital representation of energy. The owner of 1 KAP Token can trade it for 1 kWh of energy. The electricity provider will also get KAP in their wallet for energy supply.
           </p>
         </div>
+        <Test1 />
+
+        {/* <div className='md:columns-2 lg:columns-4 gap-3 w-screen mx-auto space-y-3'>
+          <div className='break-inside-avoid'>
+            <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
+          </div>
+          <div className='break-inside-avoid'>
+            <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
+          </div>
+          <div className='break-inside-avoid'>
+            <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
+          </div>
+          <div className='break-inside-avoid'>
+            <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
+          </div>
+          <div className='break-inside-avoid'>
+            <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
+          </div>
+          <div className='break-inside-avoid'>
+            <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
+          </div>
+        </div> */}
       </div>
     </div>
   )
