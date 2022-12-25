@@ -1,18 +1,13 @@
 import Image from 'next/image'
-import { Text } from "@nextui-org/react";
 import { useTheme } from 'next-themes';
-import Link from "next/link";
-import { Progress, Grid } from '@nextui-org/react';
 import { useState, useEffect } from 'react';
-import { motion, AnimateSharedLayout, AnimatePresence } from 'framer-motion';
-import * as Sentry from "@sentry/nextjs";
 import Head from 'next/head';
 import Header from '../components/Header';
 import Profile from '../components/Profile';
 import Timeline from '../components/Timeline';
 import Hobby from '../components/Hobby';
 import Skill from '../components/Skill';
-import Test1 from '../components/Test1';
+import Work from '../components/Work';
 
 export default function Home() {
 
@@ -73,7 +68,7 @@ export default function Home() {
             The KAP Token is a digital representation of energy. The owner of 1 KAP Token can trade it for 1 kWh of energy. The electricity provider will also get KAP in their wallet for energy supply.
           </p>
         </div>
-        <Test1 />
+        <Work />
 
         {/* <div className='md:columns-2 lg:columns-4 gap-3 w-screen mx-auto space-y-3'>
           <div className='break-inside-avoid'>

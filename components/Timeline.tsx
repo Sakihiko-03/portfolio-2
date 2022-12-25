@@ -4,7 +4,7 @@ type Props = {}
 
 export default function Timeline({ }: Props) {
     return (
-        <section className="dark:bg-gray-800 dark:text-gray-100 rounded-lg">
+        <section className="dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg">
             <div className="container max-w-5xl px-4 py-12 mx-auto">
                 <div className="grid gap-4 mx-4 sm:grid-cols-12">
                     <div className="col-span-12 sm:col-span-3">
