@@ -44,7 +44,7 @@ export default function Home() {
             Silpakorn University
             GPA 3.76</p>
         </div>
-        <Hobby/>
+        <Hobby />
         <div className='my-8'>
           <p className='dark:text-white text-black font-medium text-xl mb-4'>CONTACT</p>
           <div className='flex mb-4'>
