@@ -20,7 +20,7 @@ export default class SimpleSlider extends Component {
             slidesToScroll: 2,
             responsive: [
                 {
-                    breakpoint: 770,
+                    breakpoint: 890,
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 2,

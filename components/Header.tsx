@@ -15,7 +15,8 @@ export default function Header({ }: Props) {
     console.log(theme);
 
     return (
-        <header className='relative p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
+        // relative or sticky top-0
+        <header className='sticky top-0 p-2 dark:bg-gray-400 dark:bg-opacity-5 dark:backdrop-blur-sm bg-gray-400 bg-opacity-5 backdrop-blur-sm flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
             <motion.div
                 initial={{
                     x: -500,
@@ -44,6 +45,10 @@ export default function Header({ }: Props) {
                 <SocialIcon url='https://github.com/Sakihiko-03'
                     fgColor='gray'
                     bgColor='transparent' />
+                <SocialIcon className='cursor-pointer'
+                    network='email'
+                    fgColor='gray'
+                    bgColor='transparent' />
             </motion.div>
             <motion.div
                 initial={{
@@ -60,12 +65,12 @@ export default function Header({ }: Props) {
                     duration: 1.5,
                 }}
                 className='flex flex-row items-center text-gray-300 cursor-pointer'>
-                <SocialIcon className='cursor-pointer'
+                {/* <SocialIcon className='cursor-pointer'
                     network='email'
                     fgColor='gray'
-                    bgColor='transparent' />
+                    bgColor='transparent' /> */}
                 {/* <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get In Touch</p> */}
-                <div className=''>
+                <div className='mr-4'>
                     <button
                         className=" rounded-full dark:bg-white dark:bg-opacity-10 bg-gray-500 bg-opacity-10 hover:bg-gray-400 hover:bg-opacity-5  w-9 h-9 m-1"
                         onClick={() => { setTheme(theme === 'dark' ? 'light' : 'dark') }} type='button'>
