@@ -1,36 +1,3 @@
-// import React from "react";
-// // import "./styles.css";
-
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-
-// import Slider from "react-slick";
-
-// export default function App() {
-//     const renderSlides = () =>
-//         [1, 2, 3, 4, 5, 6, 7, 8].map(num => (
-//             <div className="bg-gray-800 opacity-70 p-8 rounded-lg">
-//                 <h3>Slide {num}</h3>
-//             </div>
-//         ));
-
-//     return (
-//         <div className=''>
-//             <Slider
-//                 //   dots={true}
-//                 dots={false}
-//                 infinite={true}
-//                 slidesToShow={2}
-//                 slidesToScroll={2}
-
-//                 // autoplay={true}
-//                 // autoplaySpeed={3000}
-//                 // centerMode={true}
-//             >
-//                 {renderSlides()}</Slider>
-//         </div>
-//     );
-// }
 import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -71,11 +38,10 @@ export default class SimpleSlider extends Component {
         };
         return (
             <div>
-                <h2> Single Item</h2>
                 <Slider {...settings}>
                     <div className="p-4 md:w-1/3">
                         <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">
-                            <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
+                            <img src='https://scontent.fbkk12-1.fna.fbcdn.net/v/t39.30808-6/321459732_526396949453716_4200402998008371909_n.jpg?stp=dst-jpg_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHYIZjagMHg2YGnViyNDrgmSBBGvJQ5lsxIEEa8lDmWzBjlhzvaUyAmfPTFDdB4mHs6g1vHPII3Tm60ZpoF_69r&_nc_ohc=m4oHZnKYP3wAX-tu76H&_nc_zt=23&_nc_ht=scontent.fbkk12-1.fna&oh=00_AfCGxcNKu1DicCZCEFhjLe5jUpC0FlcyifS2v6Oxi7Ni8w&oe=63ADA981'></img>
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">INTERNSHIP</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Kapacitor [Web App]</h1>
@@ -104,7 +70,7 @@ export default class SimpleSlider extends Component {
                     </div>
                     <div className="p-4 md:w-1/3">
                         <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">
-                            <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
+                            <img src='https://scontent.fbkk12-1.fna.fbcdn.net/v/t39.30808-6/322264922_2442312899257886_2296934032187418323_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeH6SMFWC50uhJ6UOXUnoHi4vX-bbfxfEkS9f5tt_F8SRFlwsctOqKkdvZF3d42spRiGQWAbmQUCNYb9iJBSXHQy&_nc_ohc=dSXrL8nflsYAX-trck3&_nc_zt=23&_nc_ht=scontent.fbkk12-1.fna&oh=00_AfB6Qdw53AO6nUEUAnpVwRB26s0TJjq_V7lsYx8UuoXi1w&oe=63ADE9E9'></img>
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">INTERNSHIP</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Kapacitor [Mobile App]</h1>
@@ -133,7 +99,7 @@ export default class SimpleSlider extends Component {
                     </div>
                     <div className="p-4 md:w-1/3">
                         <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">
-                            <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
+                            <img src='https://scontent.fbkk13-1.fna.fbcdn.net/v/t39.30808-6/277103544_7104113072996690_2244051019368022773_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeH7FTAykoryEqPWSKuZxBNiPpMfV60VwMY-kx9XrRXAxhiwX8Djz3tvtSJJSqvij4_WdBdbMU2C38gnyuTijjy6&_nc_ohc=Qggw4CfKaAEAX9WDfby&_nc_oc=AQkbwvDAIzK7zKqcyxpbmlQoLTRa4Np_qk8uZ-azOAPt2MlGbZEkugLaiQ3OPSjH1hoOgRzeob10PrTD_o-lrSuq&_nc_zt=23&_nc_ht=scontent.fbkk13-1.fna&oh=00_AfCc3qm89aQw0jJx0wd74e7pVs5Xo2r_h4uo76RfP6dCyA&oe=63AE7717'></img>
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">MINI PROJECT</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Let's Study</h1>
@@ -160,7 +126,7 @@ export default class SimpleSlider extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="p-4 md:w-1/3">
+                    {/* <div className="p-4 md:w-1/3">
                         <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">
                             <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
                             <div className="p-6">
@@ -188,7 +154,7 @@ export default class SimpleSlider extends Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </Slider>
             </div>
         );
