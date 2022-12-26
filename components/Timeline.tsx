@@ -15,6 +15,14 @@ export default function Timeline({ }: Props) {
                     </div>
                     <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
                         <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-gray-700">
+                        <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-amber-400">
+                                <h3 className="text-xl font-semibold tracking-wide">EDUCATION</h3>
+                                <time className="text-xs tracking-wide uppercase dark:text-gray-400">Jan 2016</time>
+                                <p className="mt-3">(B.Eng.) Electronics and Computer System Engineering
+                                    Faculty of Engineering and Industrial Technology
+                                    Silpakorn University
+                                    GPA 3.77</p>
+                            </div>
                             <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-amber-400">
                                 <h3 className="text-xl font-semibold tracking-wide">Training in Silpakorn University</h3>
                                 <time className="text-xs tracking-wide uppercase dark:text-gray-400">Dec 2021</time>
@@ -30,11 +38,7 @@ export default function Timeline({ }: Props) {
                                 <time className="text-xs tracking-wide uppercase dark:text-gray-400">Jul 2022</time>
                                 <p className="mt-3">At Provincial Electricity Authority, Bangkok, 6 months</p>
                             </div>
-                            <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-amber-400">
-                                <h3 className="text-xl font-semibold tracking-wide">Pellentesque habitant morbi</h3>
-                                <time className="text-xs tracking-wide uppercase dark:text-gray-400">Jan 2016</time>
-                                <p className="mt-3">Suspendisse tincidunt, arcu nec faucibus efficitur, justo velit consectetur nisl, sit amet condimentum lacus orci nec purus. Mauris quis quam suscipit, vehicula felis id, vehicula enim.</p>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
