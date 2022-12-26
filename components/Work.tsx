@@ -77,9 +77,9 @@ export default class SimpleSlider extends Component {
                         <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">
                             <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
                             <div className="p-6">
-                                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">The Catalyzer</h1>
-                                <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">INTERNSHIP</h2>
+                                <h1 className="title-font text-lg font-medium text-white mb-3">Kapacitor [Web App]</h1>
+                                <p className="leading-relaxed mb-3 text-sm">Kapacitor is a peer-to-peer (P2P) energy exchange platform built on Polygon Blockchain. Electric power producers can supply electricity to the utility grid system to earn a utility token as KAP.</p>
                                 <div className="flex items-center flex-wrap ">
                                     <a className="text-amber-400 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -106,9 +106,9 @@ export default class SimpleSlider extends Component {
                         <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">
                             <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
                             <div className="p-6">
-                                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">The Catalyzer</h1>
-                                <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">INTERNSHIP</h2>
+                                <h1 className="title-font text-lg font-medium text-white mb-3">Kapacitor [Mobile App]</h1>
+                                <p className="leading-relaxed mb-3 text-sm">Kapacitor is a peer-to-peer (P2P) energy exchange platform built on Polygon Blockchain. Electric power producers can supply electricity to the utility grid system to earn a utility token as KAP.</p>
                                 <div className="flex items-center flex-wrap ">
                                     <a className="text-amber-400 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -135,9 +135,9 @@ export default class SimpleSlider extends Component {
                         <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">
                             <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
                             <div className="p-6">
-                                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">The Catalyzer</h1>
-                                <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">MINI PROJECT</h2>
+                                <h1 className="title-font text-lg font-medium text-white mb-3">Let's Study</h1>
+                                <p className="leading-relaxed mb-3 text-sm">It is a project to notify when studying. It consists of LCD display, text to speech sound and line notify. Users can choose the mode they want and enter the daily subjects in the GUI. Simulate the operation using  Proteus, Arduino IDE and Python.</p>
                                 <div className="flex items-center flex-wrap ">
                                     <a className="text-amber-400 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">

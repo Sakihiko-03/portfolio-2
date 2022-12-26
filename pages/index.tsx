@@ -28,17 +28,9 @@ export default function Home() {
         <div className='my-8 text-slate-400'>
           <p className='dark:text-white text-black font-medium text-xl'>PROFILE</p>
           <p className=''>
-            I am a senior in the Department of Electronics and Computer system engineering at Silpakorn University. During 1st and 2nd, I used to be a member of the student union of Engineering and industrial technology.
-            I am interested in Internet of Things, Image Processing and Programing.</p>
+          I am studying in the 4th year of Electronic Engineering and Computer Systems. Even though I didn't study programming directly. But I am interested in Front-end develop and User Interface design. After getting an internship with the Provincial Electricity Authority and doing a project together, it gave me more work experience and ways to gain more knowledge.</p>
         </div>
-        <div className='my-8 text-slate-400'>
-          <p className='dark:text-white text-black font-medium text-xl'>EDUCATION</p>
-          <p className=''>Bachelor of Engineering (B.Eng.)
-            Major: Electronics and Computer System Engineering
-            Faculty of Engineering and Industrial Technology
-            Silpakorn University
-            GPA 3.76</p>
-        </div>
+       
         <Hobby />
         <div className='my-8'>
           <p className='dark:text-white text-black font-medium text-xl mb-4'>CONTACT</p>
@@ -61,13 +53,6 @@ export default function Home() {
         </div>
         <Timeline />
         <Skill />
-        <div className='my-8'>
-          <p className='dark:text-white text-black font-medium text-xl'>WORK</p>
-          <p className='dark:text-white text-black font-semibold'>Kapacitor Project</p>
-          <p className='text-slate-400'>The Kapacitor is a peer-to-peer (P2P) energy exchange platform that runs on the Public blockchain, which is secure, can't be changed, and is very reliable.
-            The KAP Token is a digital representation of energy. The owner of 1 KAP Token can trade it for 1 kWh of energy. The electricity provider will also get KAP in their wallet for energy supply.
-          </p>
-        </div>
         <Work />
 
         {/* <div className='md:columns-2 lg:columns-4 gap-3 w-screen mx-auto space-y-3'>

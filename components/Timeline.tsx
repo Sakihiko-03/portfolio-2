@@ -15,7 +15,7 @@ export default function Timeline({ }: Props) {
                     </div>
                     <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
                         <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-gray-700">
-                        <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-amber-400">
+                            <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-amber-400">
                                 <h3 className="text-xl font-semibold tracking-wide">EDUCATION</h3>
                                 <time className="text-xs tracking-wide uppercase dark:text-gray-400">Jan 2016</time>
                                 <p className="mt-3">(B.Eng.) Electronics and Computer System Engineering
@@ -27,18 +27,23 @@ export default function Timeline({ }: Props) {
                                 <h3 className="text-xl font-semibold tracking-wide">Training in Silpakorn University</h3>
                                 <time className="text-xs tracking-wide uppercase dark:text-gray-400">Dec 2021</time>
                                 <p className="mt-3">Basic Python, Silpakorn University, 2 days</p>
-                                <p className=''>Programming and Image Processing using Python with OpenCV, 2 days</p>
-                                <p className=''>Develop Mobile Web Application with HTML, CSS, JavaScript, Bootstrap and php, 2 days</p>
-                                <p className=''>Speech-to-Text and Text-to-Speech programming, 1 day</p>
-                                <p className=''>Create LINE Chatbot using Python with Flask and wit.ai, 1 day</p>
-                                <p className=''>Image Classification by CNN Model using Python with TensorFlow, 1 day</p>
+                                <p>Programming and Image Processing using Python with OpenCV, 2 days</p>
+                                <p>Develop Mobile Web Application with HTML, CSS, JavaScript, Bootstrap and php, 2 days</p>
+                                <p>Speech-to-Text and Text-to-Speech programming, 1 day</p>
+                                <p>Create LINE Chatbot using Python with Flask and wit.ai, 1 day</p>
+                                <p>Image Classification by CNN Model using Python with TensorFlow, 1 day</p>
+                                <p>Python with TensorFlow, 1 day</p>
+                                <p>Develop Android Mobile Application with Flutter for beginner, 3 day</p>  
                             </div>
                             <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-amber-400">
                                 <h3 className="text-xl font-semibold tracking-wide">Internships and Cooperative Education</h3>
                                 <time className="text-xs tracking-wide uppercase dark:text-gray-400">Jul 2022</time>
-                                <p className="mt-3">At Provincial Electricity Authority, Bangkok, 6 months</p>
+                                <p className="mt-3">At Digital Office, Provincial Electricity Authority, Bangkok, 6 months</p>
+                                <p>Kapacitor Project is an energy trading platform. I was responsible for Front-end developer, UI design and illustration design.</p>
+                                    <p>- Web App using NextJS framework and TailwindCSS</p>
+                                    <p>- Mobile App using Flutter framework</p>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
