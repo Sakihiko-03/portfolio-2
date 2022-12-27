@@ -27,7 +27,9 @@ export default function Home() {
       <Header />
       <Profile />
       <div className='mx-12 md:mx-24 lg:mx-32 mb-12 lg:mb-16'>
-        <AboutMe />
+        <section id="about" className=''>
+          <AboutMe />
+        </section>
         <Hobby />
         <Timeline />
         <Skill />
