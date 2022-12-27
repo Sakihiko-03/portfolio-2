@@ -10,7 +10,8 @@ import Skill from '../components/Skill';
 import Work from '../components/Work';
 import AboutMe from '../components/AboutMe';
 import ContactMe from '../components/ContactMe';
-
+import ModalBox from '../components/ModalBox';
+// import { Modal } from "flowbite-react"; 
 export default function Home() {
 
   const { theme, setTheme } = useTheme();
@@ -41,6 +42,8 @@ export default function Home() {
         <Skill />
         <Work />
         <ContactMe />
+        
+        <ModalBox />
         {/* <div className='md:columns-2 lg:columns-4 gap-3 w-screen mx-auto space-y-3'>
           <div className='break-inside-avoid'>
             <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
