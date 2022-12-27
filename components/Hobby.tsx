@@ -5,7 +5,7 @@ type Props = {}
 
 export default function Hobby({ }: Props) {
     return (
-        <div className='my-8 text-slate-400'>
+        <div className='text-slate-400 my-32'>
             <p className='dark:text-white text-black font-medium text-xl mb-4'>HOBBIES</p>
             <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
                 <motion.div

@@ -37,7 +37,7 @@ export default class SimpleSlider extends Component {
             ],
         };
         return (
-            <div>
+            <div id='projects'>
                 <Slider {...settings}>
                     <div className="p-4 md:w-1/3">
                         <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">

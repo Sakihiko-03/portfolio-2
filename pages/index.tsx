@@ -23,13 +23,19 @@ export default function Home() {
     <div className='dark:bg-zinc-900 light:bg-gray-100 h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-amber-400/80'>
       <Head>
         <title>Supakorn's Portfolio</title>
-      </Head>
-      <Header />
-      <Profile />
+      </Head> 
+     <Header />
+      {/* <section id='nav' className='snap-start'></section> */}
+     
+ 
+      {/* <section id="about" className='snap-start'> */}
+         <Profile /> 
+        {/* </section> */}
+      
       <div className='mx-12 md:mx-24 lg:mx-32 mb-12 lg:mb-16'>
-        <section id="about" className=''>
+        {/* <section id='about' className='snap-center'> */}
           <AboutMe />
-        </section>
+        {/* </section> */}
         <Hobby />
         <Timeline />
         <Skill />

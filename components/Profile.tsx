@@ -23,25 +23,19 @@ export default function Hero({ }: Props) {
                     alt=''
                 />
                 <div className='z-20 md:col-span-2'>
-                    <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[5px]'>Front-End Developer</h2>
-                    <h1 className='text-5xl lg:text-6xl font-semibold'>
+                    <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[5px] mb-2'>Front-End Developer</h2>
+                    <h1 className='text-5xl lg:text-6xl font-semibold mb-12'>
                         <span className=''>{text}</span>
                         <Cursor cursorColor='#F7AB0A' />
                     </h1>
                     {/* <button className="flex mx-auto mt-6 text-white bg-amber-400 border-0 py-2 px-5 focus:outline-none hover:bg-amber-600 rounded">About Me</button> */}
-                    <div className='pt-8'>
-                        <Link href={'#about'}>
-                            <button className='heroButton'>About Me</button>
+                    <div>
+                        <Link href={'#about'} className=''>
+                            <button className='heroButton mr-8'>About Me</button>
                         </Link>
-                        {/* <Link href={'#experience'}>
-                            <button className='heroButton'>Experience</button>
-                        </Link>
-                        <Link href={'#skills'}>
-                            <button className='heroButton'>Skills</button>
-                        </Link >
                         <Link href={'#projects'}>
                             <button className='heroButton'>Projects</button>
-                        </Link> */}
+                        </Link>
                     </div>
                 </div>
             </div>
