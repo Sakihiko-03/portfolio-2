@@ -18,7 +18,8 @@ export default function Hero({ }: Props) {
         <div className='relative z-10 h-3/4 items-center justify-center grid md:grid-cols-3 text-center overflow-hidden'>
             <img
                 className='relative rounded-full lg:h-80 lg:w-80 h-48 w-48 mx-auto object-cover'
-                src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'
+                // src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'
+                src='https://scontent.fbkk13-1.fna.fbcdn.net/v/t39.30808-6/321289427_865426224659226_5512635338317382693_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGTHJETiFMZTWvjhpWk2wjEGTMBfaka4ZgZMwF9qRrhmMosMM_r4NvrMXhN8BZ0TSymBIB2emASxdyx81mnQ_hQ&_nc_ohc=7H69zTM3VMMAX8Jd9U_&_nc_zt=23&_nc_ht=scontent.fbkk13-1.fna&oh=00_AfChqUML5-IjhvFum6RSY0hfSGVXVNbYOJlkROwRskeirw&oe=63AF7D5B'
                 alt=''
             />
             <div className='z-20 md:col-span-2'>
