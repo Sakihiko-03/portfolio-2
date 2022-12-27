@@ -21,7 +21,7 @@ export default function Modal() {
                     <div className="absolute inset-0 z-30">
                         <div className="flex items-center justify-center min-h-screen w-full h-full fixed top-0 left-0 z-[60] overflow-x-hidden overflow-y-auto">
                             {/*content*/}
-                            <div className="relative z-10 max-w-3xl m-4 rounded-lg shadow-lg flex flex-col bg-white outline-none focus:outline-none overflow-hidden">
+                            <div className="max-w-3xl m-4 rounded-lg shadow-lg flex flex-col bg-white outline-none focus:outline-none overflow-hidden">
                                 {/*header*/}
                                 <div className="relative h-8 flex items-center max-w-[50rem] bg-gray-800 py-2 px-24 dark:bg-gray-700">
                                     <div className="flex space-x-1 absolute top-2/4 left-4 -translate-y-1">
@@ -48,10 +48,30 @@ export default function Modal() {
                                         won’t do anything. I was taught I could do everything.
                                     </p>
                                 </div>
+                                {/* <div className='md:columns-2 lg:columns-4 gap-3 w-screen mx-auto space-y-3'>
+                                    <div className='break-inside-avoid'>
+                                        <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
+                                    </div>
+                                    <div className='break-inside-avoid'>
+                                        <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
+                                    </div>
+                                    <div className='break-inside-avoid'>
+                                        <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
+                                    </div>
+                                    <div className='break-inside-avoid'>
+                                        <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
+                                    </div>
+                                    <div className='break-inside-avoid'>
+                                        <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
+                                    </div>
+                                    <div className='break-inside-avoid'>
+                                        <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
+                                    </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
-                    <div className="opacity-50 fixed inset-0 z-0 bg-gray-900 backdrop-blur-md"></div>
+                    <div className="fixed opacity-50 inset-0 z-10 bg-gray-900 backdrop-blur-md"></div>
                 </>
             ) : null}
         </>

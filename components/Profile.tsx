@@ -15,7 +15,7 @@ export default function Hero({ }: Props) {
     })
     return (
         <>
-            <div className='relative z-10 h-3/4 items-center justify-center grid md:grid-cols-3 text-center overflow-hidden'>
+            <div className='relative z-0 h-3/4 items-center justify-center grid md:grid-cols-3 text-center overflow-hidden'>
                 <img
                     className='relative rounded-full lg:h-80 lg:w-80 h-48 w-48 mx-auto object-cover'
                     // src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'

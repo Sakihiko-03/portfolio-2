@@ -24,46 +24,25 @@ export default function Home() {
     <div className='dark:bg-zinc-900 light:bg-gray-100 h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-amber-400/80'>
       <Head>
         <title>Supakorn's Portfolio</title>
-      </Head> 
-     <Header />
+      </Head>
+      <Header />
       {/* <section id='nav' className='snap-start'></section> */}
-     
- 
       {/* <section id="about" className='snap-start'> */}
-         <Profile /> 
-        {/* </section> */}
-      
+      <Profile />
+      {/* </section> */}
+
       <div className='mx-12 md:mx-24 lg:mx-32 mb-12 lg:mb-16'>
         {/* <section id='about' className='snap-center'> */}
-          <AboutMe />
+        <AboutMe />
         {/* </section> */}
         <Hobby />
         <Timeline />
         <Skill />
         <Work />
         <ContactMe />
-        
-        <ModalBox />
-        {/* <div className='md:columns-2 lg:columns-4 gap-3 w-screen mx-auto space-y-3'>
-          <div className='break-inside-avoid'>
-            <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
-          </div>
-          <div className='break-inside-avoid'>
-            <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
-          </div>
-          <div className='break-inside-avoid'>
-            <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
-          </div>
-          <div className='break-inside-avoid'>
-            <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
-          </div>
-          <div className='break-inside-avoid'>
-            <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
-          </div>
-          <div className='break-inside-avoid'>
-            <img src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'></img>
-          </div>
-        </div> */}
+
+        {/* <ModalBox /> */}
+
       </div>
     </div>
   )
