@@ -11,6 +11,8 @@ import Work from '../components/Work';
 import AboutMe from '../components/AboutMe';
 import ContactMe from '../components/ContactMe';
 import ModalBox from '../components/ModalBox';
+import Model from '../components/3D';
+
 // import { Modal } from "flowbite-react"; 
 export default function Home() {
 
@@ -40,6 +42,7 @@ export default function Home() {
         <Skill />
         <Work />
         <ContactMe />
+        <Model/>
 
         {/* <ModalBox /> */}
 
