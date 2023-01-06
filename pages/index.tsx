@@ -42,8 +42,7 @@ export default function Home() {
         <Skill />
         <Work />
         <ContactMe />
-        <Model/>
-
+        {/* <Model/> */}
         {/* <ModalBox /> */}
 
       </div>
