@@ -5,7 +5,7 @@ type Props = {}
 
 export default function Skill({ }: Props) {
     return (
-        <div className='my-8 relative z-10 my-32'>
+        <div className='relative z-10 my-32'>
             <p className='dark:text-white text-black font-medium text-xl mb-4'>SKILLS</p>
             <div className='grid grid-cols-2 lg:grid-cols-5 gap-8 text-slate-400'>
                 <div className='border dark:border-slate-700 border-slate-300 text-slate-400 p-4 rounded-lg'>
@@ -41,7 +41,7 @@ export default function Skill({ }: Props) {
                     <p className=''>Figma</p>
                     <p className=''>Blender</p>
                     <p className=''>Procreate</p>
-                    <ModalBox />
+                    {/* <ModalBox /> */}
                 </div>
             </div>
         </div>

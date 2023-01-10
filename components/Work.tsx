@@ -3,7 +3,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Link from 'next/link';
-import ModalBox from "./ModalBox";
+import Image from 'next/image'
+import Web from '../public/assets/kapWeb.png'
+import Mobile from '../public/assets/kapMobile.png'
+import Micro from '../public/assets/miniProject.png'
+
 export default class SimpleSlider extends Component {
 
     render() {
@@ -41,11 +45,12 @@ export default class SimpleSlider extends Component {
         };
         return (
             <div id='projects'>
-            <p className='dark:text-white text-black font-medium text-xl mb-4'>PROJECTS</p>
+                <p className='dark:text-white text-black font-medium text-xl mb-4'>PROJECTS</p>
                 <Slider {...settings}>
                     <div className="p-4 md:w-1/3">
                         <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg">
-                            <img className="rounded-t-lg overflow-hidden" src='https://scontent.fbkk12-1.fna.fbcdn.net/v/t39.30808-6/321459732_526396949453716_4200402998008371909_n.jpg?stp=dst-jpg_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHYIZjagMHg2YGnViyNDrgmSBBGvJQ5lsxIEEa8lDmWzBjlhzvaUyAmfPTFDdB4mHs6g1vHPII3Tm60ZpoF_69r&_nc_ohc=m4oHZnKYP3wAX-tu76H&_nc_zt=23&_nc_ht=scontent.fbkk12-1.fna&oh=00_AfCGxcNKu1DicCZCEFhjLe5jUpC0FlcyifS2v6Oxi7Ni8w&oe=63ADA981'></img>
+                            {/* <img className="rounded-t-lg overflow-hidden" src='https://scontent.fbkk12-1.fna.fbcdn.net/v/t39.30808-6/321459732_526396949453716_4200402998008371909_n.jpg?stp=dst-jpg_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHYIZjagMHg2YGnViyNDrgmSBBGvJQ5lsxIEEa8lDmWzBjlhzvaUyAmfPTFDdB4mHs6g1vHPII3Tm60ZpoF_69r&_nc_ohc=m4oHZnKYP3wAX-tu76H&_nc_zt=23&_nc_ht=scontent.fbkk12-1.fna&oh=00_AfCGxcNKu1DicCZCEFhjLe5jUpC0FlcyifS2v6Oxi7Ni8w&oe=63ADA981'></img> */}
+                            <Image className="rounded-t-lg overflow-hidden" src={Web} alt='' />
                             <div className=" p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">INTERNSHIP</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Kapacitor [Web App]</h1>
@@ -76,7 +81,8 @@ export default class SimpleSlider extends Component {
                     </div>
                     <div className="p-4 md:w-1/3">
                         <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">
-                            <img src='https://scontent.fbkk12-1.fna.fbcdn.net/v/t39.30808-6/322264922_2442312899257886_2296934032187418323_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeH6SMFWC50uhJ6UOXUnoHi4vX-bbfxfEkS9f5tt_F8SRFlwsctOqKkdvZF3d42spRiGQWAbmQUCNYb9iJBSXHQy&_nc_ohc=dSXrL8nflsYAX-trck3&_nc_zt=23&_nc_ht=scontent.fbkk12-1.fna&oh=00_AfB6Qdw53AO6nUEUAnpVwRB26s0TJjq_V7lsYx8UuoXi1w&oe=63ADE9E9'></img>
+                            {/* <img src='https://scontent.fbkk12-1.fna.fbcdn.net/v/t39.30808-6/322264922_2442312899257886_2296934032187418323_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeH6SMFWC50uhJ6UOXUnoHi4vX-bbfxfEkS9f5tt_F8SRFlwsctOqKkdvZF3d42spRiGQWAbmQUCNYb9iJBSXHQy&_nc_ohc=dSXrL8nflsYAX-trck3&_nc_zt=23&_nc_ht=scontent.fbkk12-1.fna&oh=00_AfB6Qdw53AO6nUEUAnpVwRB26s0TJjq_V7lsYx8UuoXi1w&oe=63ADE9E9'></img> */}
+                            <Image className="rounded-t-lg overflow-hidden" src={Mobile} alt='' />
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">INTERNSHIP</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Kapacitor [Mobile App]</h1>
@@ -107,7 +113,8 @@ export default class SimpleSlider extends Component {
                     </div>
                     <div className="p-4 md:w-1/3">
                         <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">
-                            <img src='https://scontent.fbkk13-1.fna.fbcdn.net/v/t39.30808-6/277103544_7104113072996690_2244051019368022773_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeH7FTAykoryEqPWSKuZxBNiPpMfV60VwMY-kx9XrRXAxhiwX8Djz3tvtSJJSqvij4_WdBdbMU2C38gnyuTijjy6&_nc_ohc=Qggw4CfKaAEAX9WDfby&_nc_oc=AQkbwvDAIzK7zKqcyxpbmlQoLTRa4Np_qk8uZ-azOAPt2MlGbZEkugLaiQ3OPSjH1hoOgRzeob10PrTD_o-lrSuq&_nc_zt=23&_nc_ht=scontent.fbkk13-1.fna&oh=00_AfCc3qm89aQw0jJx0wd74e7pVs5Xo2r_h4uo76RfP6dCyA&oe=63AE7717'></img>
+                            {/* <img src='https://scontent.fbkk13-1.fna.fbcdn.net/v/t39.30808-6/277103544_7104113072996690_2244051019368022773_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeH7FTAykoryEqPWSKuZxBNiPpMfV60VwMY-kx9XrRXAxhiwX8Djz3tvtSJJSqvij4_WdBdbMU2C38gnyuTijjy6&_nc_ohc=Qggw4CfKaAEAX9WDfby&_nc_oc=AQkbwvDAIzK7zKqcyxpbmlQoLTRa4Np_qk8uZ-azOAPt2MlGbZEkugLaiQ3OPSjH1hoOgRzeob10PrTD_o-lrSuq&_nc_zt=23&_nc_ht=scontent.fbkk13-1.fna&oh=00_AfCc3qm89aQw0jJx0wd74e7pVs5Xo2r_h4uo76RfP6dCyA&oe=63AE7717'></img> */}
+                            <Image className="rounded-t-lg overflow-hidden" src={Micro} alt='' />
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">MINI PROJECT</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Let's Study</h1>
