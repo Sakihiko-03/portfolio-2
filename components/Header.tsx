@@ -33,12 +33,9 @@ export default function Header({ }: Props) {
                 }}
                 className='flex flex-row items-center'>
                 {/* Social */}
-                {/* <SocialIcon url='https://twitter.com/Sakihiko_03'
+                <SocialIcon url='https://twitter.com/Sakihiko_03'
                     fgColor='gray'
                     bgColor='transparent' />
-                <SocialIcon url='https://www.youtube.com'
-                    fgColor='gray'
-                    bgColor='transparent' /> */}
                 <SocialIcon url='https://web.facebook.com/supakorn.suriyamongkol/'
                     fgColor='gray'
                     bgColor='transparent' />
