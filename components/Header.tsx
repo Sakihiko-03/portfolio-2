@@ -16,7 +16,7 @@ export default function Header({ }: Props) {
 
     return (
         // relative or sticky top-0
-        <header className='sticky top-0 p-2 dark:bg-gray-400 dark:bg-opacity-5 dark:backdrop-blur-sm bg-gray-400 bg-opacity-5 backdrop-blur-sm flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
+        <header className='sticky top-0 p-2 dark:bg-gray-400 dark:bg-opacity-5 dark:backdrop-blur-sm bg-gray-400 bg-opacity-5 backdrop-blur-sm flex items-start justify-between  z-20 xl:items-center'>
             <motion.div
                 initial={{
                     x: -500,
