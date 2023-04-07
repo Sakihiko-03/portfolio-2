@@ -7,6 +7,12 @@ import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
 type Props = {}
 
 export default function Hero({ }: Props) {
+    function download() {
+        const URL = 'https://drive.google.com/file/d/14TjKE4Awk6FYNzTArBXQ_U7rtCUNR1AQ/view?usp=share_link'
+        if (typeof window !== "undefined"){
+          window.location.href = URL
+        }
+    }
     const [text, count] = useTypewriter({
         words: [
             "Hi, My Name is",
@@ -50,14 +56,20 @@ export default function Hero({ }: Props) {
                         <span className=''>{text}</span>
                         <Cursor cursorColor='#F7AB0A' />
                     </h1>
-                    {/* <button className="flex mx-auto mt-6 text-white bg-amber-400 border-0 py-2 px-5 focus:outline-none hover:bg-amber-600 rounded">About Me</button> */}
                     <div>
-                        <Link href={'#about'} className=''>
-                            <button className='heroButton mr-8'>About Me</button>
+                        <Link href={'#about'}>
+                            <button className='heroButton'>About Me</button>
                         </Link>
                         <Link href={'#projects'}>
-                            <button className='heroButton'>Projects</button>
+                            <button className='heroButton mx-8'>Projects</button>
                         </Link>
+                        <button className='heroButton inline-flex items-center px-4 py-2' onClick={download}> 
+                            Resume
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-5 w-5 ml-2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                            </svg>
+
+                        </button>
                     </div>
                 </div>
             </div>
