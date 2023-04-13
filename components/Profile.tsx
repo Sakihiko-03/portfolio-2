@@ -3,12 +3,14 @@ import Link from 'next/link';
 import React from 'react'
 import Model from '../components/3D';
 import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
+import Image from 'next/image'
+import Profile from '../public/assets/profile.png'
 
 type Props = {}
 
 export default function Hero({ }: Props) {
     function download() {
-        const URL = 'https://drive.google.com/file/d/14TjKE4Awk6FYNzTArBXQ_U7rtCUNR1AQ/view?usp=share_link'
+        const URL = 'https://www.canva.com/design/DAFf93R1S4o/6fX-joaC0mR7ArYN-dCM0w/view?utm_content=DAFf93R1S4o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink'
         if (typeof window !== "undefined"){
           window.location.href = URL
         }
@@ -42,12 +44,13 @@ export default function Hero({ }: Props) {
                 >
                     {/* <img
                         className='relative rounded-full lg:h-72 lg:w-72 h-48 w-48 mx-auto object-cover'
-                        // src='https://pbs.twimg.com/profile_images/1578650353901662211/T-UNfuW-_400x400.jpg'
-                        src='https://scontent.fbkk13-1.fna.fbcdn.net/v/t39.30808-6/321289427_865426224659226_5512635338317382693_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGTHJETiFMZTWvjhpWk2wjEGTMBfaka4ZgZMwF9qRrhmMosMM_r4NvrMXhN8BZ0TSymBIB2emASxdyx81mnQ_hQ&_nc_ohc=7H69zTM3VMMAX8Jd9U_&_nc_zt=23&_nc_ht=scontent.fbkk13-1.fna&oh=00_AfChqUML5-IjhvFum6RSY0hfSGVXVNbYOJlkROwRskeirw&oe=63AF7D5B'
+                        src='https://drive.google.com/file/d/1-kPNbYTcWRaDP-P24lhCbVUcL6vQA9AC/view?usp=share_link'
                         alt=''
                     /> */}
+                            <Image className="rounded-full overflow-hidden" src={Profile} alt='' height={400} width={400} objectFit="cover" objectPosition="center"/>
+                    
                     <div className='m-16'>
-                    <Model />
+                    {/* <Model /> */}
                     </div>
                 </motion.div>
                 <div className='z-20 md:col-span-2'>
