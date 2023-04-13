@@ -55,7 +55,7 @@ export default class SimpleSlider extends Component {
                             {/* <img className="rounded-t-lg overflow-hidden" src='https://scontent.fbkk12-1.fna.fbcdn.net/v/t39.30808-6/321459732_526396949453716_4200402998008371909_n.jpg?stp=dst-jpg_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHYIZjagMHg2YGnViyNDrgmSBBGvJQ5lsxIEEa8lDmWzBjlhzvaUyAmfPTFDdB4mHs6g1vHPII3Tm60ZpoF_69r&_nc_ohc=m4oHZnKYP3wAX-tu76H&_nc_zt=23&_nc_ht=scontent.fbkk12-1.fna&oh=00_AfCGxcNKu1DicCZCEFhjLe5jUpC0FlcyifS2v6Oxi7Ni8w&oe=63ADA981'></img> */}
                             <Image className="rounded-t-lg overflow-hidden" src={Web} alt='' />
                             <div className=" p-6">
-                                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">INTERNSHIP</h2>
+                                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CO-OP EDUCATION AT PEA</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Kapacitor [Web App]</h1>
                                 <p className="leading-relaxed mb-3 text-sm">Kapacitor is a peer-to-peer (P2P) energy exchange platform built on Polygon Blockchain. Electric power producers can supply electricity to the utility grid system to earn a utility token as KAP.</p>
                                 <div className="flex items-center flex-wrap ">
@@ -87,7 +87,7 @@ export default class SimpleSlider extends Component {
                             {/* <img src='https://scontent.fbkk12-1.fna.fbcdn.net/v/t39.30808-6/322264922_2442312899257886_2296934032187418323_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeH6SMFWC50uhJ6UOXUnoHi4vX-bbfxfEkS9f5tt_F8SRFlwsctOqKkdvZF3d42spRiGQWAbmQUCNYb9iJBSXHQy&_nc_ohc=dSXrL8nflsYAX-trck3&_nc_zt=23&_nc_ht=scontent.fbkk12-1.fna&oh=00_AfB6Qdw53AO6nUEUAnpVwRB26s0TJjq_V7lsYx8UuoXi1w&oe=63ADE9E9'></img> */}
                             <Image className="rounded-t-lg overflow-hidden" src={Mobile} alt='' />
                             <div className="p-6">
-                                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">INTERNSHIP</h2>
+                                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CO-OP EDUCATION AT PEA</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Kapacitor [Mobile App]</h1>
                                 <p className="leading-relaxed mb-3 text-sm">Kapacitor is a peer-to-peer (P2P) energy exchange platform built on Polygon Blockchain. Electric power producers can supply electricity to the utility grid system to earn a utility token as KAP.</p>
                                 <div className="flex items-center flex-wrap ">
@@ -118,7 +118,7 @@ export default class SimpleSlider extends Component {
                         <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">
                             <Image className="rounded-t-lg overflow-hidden" src={Micro} alt='' height={4000} objectFit="cover" objectPosition="center"/>
                             <div className="p-6">
-                                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CO-OP EDUCATION AT PEA</h2>
+                                <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">Microcontroller Class</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Let's Study</h1>
                                 <p className="leading-relaxed mb-3 text-sm">It is a project to notify when studying. It consists of LCD display, text to speech sound and line notify. Users can choose the mode they want and enter the daily subjects in the GUI. Simulate the operation using  Proteus, Arduino IDE and Python.</p>
                                 <div className="flex items-center flex-wrap ">
@@ -139,8 +139,8 @@ export default class SimpleSlider extends Component {
                             <Image className="rounded-t-lg overflow-hidden" src={Coop} alt='' height={3000} objectFit="cover" objectPosition="center"/>
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CO-OP EDUCATION AT PEA</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">Let's Study</h1>
-                                <p className="leading-relaxed mb-3 text-sm">It is a project to notify when studying. It consists of LCD display, text to speech sound and line notify. Users can choose the mode they want and enter the daily subjects in the GUI. Simulate the operation using  Proteus, Arduino IDE and Python.</p>
+                                <h1 className="title-font text-lg font-medium text-white mb-3">Co-op day</h1>
+                                <p className="leading-relaxed mb-3 text-sm">Kapacitor is a peer-to-peer (P2P) energy exchange platform built on Polygon Blockchain. Electric power producers can supply electricity to the utility grid system to earn a utility token as KAP.</p>
                                 <div className="flex items-center flex-wrap ">
                                     <Link href={'https://kapacitor.me/'} className=''>
                                         <button className='text-amber-400 inline-flex items-center md:mb-2 lg:mb-0'>Learn More
@@ -179,8 +179,8 @@ export default class SimpleSlider extends Component {
                             <Image className="rounded-t-lg overflow-hidden" src={DIP} alt='' height={3000} objectFit="cover" objectPosition="center"/>
                             <div className=" p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">DIP PROJECT</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">Kapacitor [Web App]</h1>
-                                <p className="leading-relaxed mb-3 text-sm">Kapacitor is a peer-to-peer (P2P) energy exchange platform built on Polygon Blockchain. Electric power producers can supply electricity to the utility grid system to earn a utility token as KAP.</p>
+                                <h1 className="title-font text-lg font-medium text-white mb-3">Highlighted Text Detection with Line Chatbot</h1>
+                                <p className="leading-relaxed mb-3 text-sm">Detect highlighted text from images sent in Line Chatbot to convert it into text and send it back.</p>
                                 <div className="flex items-center flex-wrap ">
                                     <Link href={'https://kapacitor.me/'} className=''>
                                         <button className='text-amber-400 inline-flex items-center md:mb-2 lg:mb-0'>Learn More
