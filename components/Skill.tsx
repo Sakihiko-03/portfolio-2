@@ -15,62 +15,113 @@ export default function Skill({ }: Props) {
             <div className='grid grid-cols-2 lg:grid-cols-5 gap-8 text-slate-400'>
                 <div className='border dark:border-slate-700 border-slate-300 text-slate-400 p-4 rounded-lg'>
                     <p className='dark:text-white text-black font-semibold'>Programming Language</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                    <p className=''>C/C++</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                    <p className=''>Python</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                    <p className=''>JavaScript</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-                    <p className=''>TypeScript</p>
-                    <p className=''>Dart</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-                    <p className=''>HTML</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-                    <p className=''>CSS</p>
+                    <div className='grid grid-cols-2'>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width={35} />
+                        <p className=''>C</p></div>
+                    <div className='grid grid-cols-2'>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width={35} />
+                        <p className=''>C++</p></div>
+                    <div className='grid grid-cols-2'>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width={35} />
+                        <p className=''>Python</p>
+                    </div>
+                    <div className='grid grid-cols-2'>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width={35} />
+                        <p className=''>JavaScript</p>
+                    </div>
+                    <div className='grid grid-cols-2'>
+
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width={35} />
+                        <p className=''>TypeScript</p>
+                    </div>
+                    <div className='grid grid-cols-2'>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width={35} />
+                        <p className=''>Dart</p>
+                    </div>
+                    <div className='grid grid-cols-2'>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width={35} />
+                        <p className=''>HTML</p>
+                    </div>
+                    <div className='grid grid-cols-2'>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width={35} />
+                        <p className=''>CSS</p>
+                    </div>
                 </div>
                 <div className='border dark:border-slate-700 border-slate-300 text-slate-400 p-4 rounded-lg'>
                     <p className='dark:text-white text-black font-semibold'>Framework & Libraries</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" />
-                    <p className=''>Flutter-4</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ionic/ionic-original.svg" />
+                    <div className='grid grid-cols-2'>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width={35} />
+                    <p className=''>Flutter</p>
+                    </div>
+
+                    {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ionic/ionic-original.svg" width={35}/>
                     <p className=''>Ionic-3</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg" />
-                    <p className=''>Angular-4</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-                    <p className=''>React-4</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
-                    <p className=''>NextJs-4</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-                    <p className=''>NodeJs-3</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg" width={35}/>
+                    <p className=''>Angular-4</p> */}
+                    <div className='grid grid-cols-2'>
+                    
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width={35} />
+                    <p className=''>ReactJS</p>
+                    </div>
+                    <div className='grid grid-cols-2'>
+                   
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width={35} />
+                    <p className=''>NextJS</p>
+                    </div>
+                    <div className='grid grid-cols-2'>
+                   
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width={35} />
                     <p className=''>Tailwind CSS</p>
+                    </div>
+
                 </div>
-                <div className='border dark:border-slate-700 border-slate-300 text-slate-400 p-4 rounded-lg'>
+                {/* <div className='border dark:border-slate-700 border-slate-300 text-slate-400 p-4 rounded-lg'>
                     <p className='dark:text-white text-black font-semibold'>Database</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width={35}/>
                     <p className=''>MongoDB</p>
-                </div>
+                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width={35}/>
+                    <p className=''>NodeJs-3</p>
+                </div> */}
                 <div className='border dark:border-slate-700 border-slate-300 text-slate-400 p-4 rounded-lg'>
                     <p className='dark:text-white text-black font-semibold'>Dev Tool</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+                    <div className='grid grid-cols-2'>
+                    
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width={35} />
                     <p className=''>VS Code</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    </div>
+                    <div className='grid grid-cols-2'>
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width={35} />
                     <p className=''>Github</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-                    <p className=''>git</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" />
+                    </div>
+
+                    {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width={35}/>
+                    <p className=''>git</p> */}
+                    <div className='grid grid-cols-2'>
+                   
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" width={35} />
                     <p className=''>Android Studio</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" />
+                    </div>
+                    <div className='grid grid-cols-2'>
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width={35} />
                     <p className=''>Arduino IDE</p>
+                    </div>
+                    
                 </div>
                 <div className='border dark:border-slate-700 border-slate-300 text-slate-400 p-4 rounded-lg'>
                     <p className='dark:text-white text-black font-semibold'>Graphic</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+                    <div className='grid grid-cols-2'>
+                    
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width={35} />
                     <p className=''>Figma</p>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" />
+                    </div>
+                    <div className='grid grid-cols-2'>
+                    
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" width={35} />
                     <p className=''>Blender</p>
+                    </div>
+                    
                     <p className=''>Procreate</p>
                     {/* <ModalBox /> */}
                 </div>
