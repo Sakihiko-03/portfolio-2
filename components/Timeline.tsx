@@ -21,7 +21,7 @@ export default function Timeline({ }: Props) {
                                 <p className="mt-3">(B.Eng.) Electronics and Computer System Engineering</p>
                                 <p>Faculty of Engineering and Industrial Technology</p>
                                 <p>Silpakorn University</p>
-                                <p>GPA 3.77</p>
+                                <p>GPA 3.79</p>
                             </div>
                             <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-amber-400">
                                 <h3 className="text-xl font-semibold tracking-wide">Training in Silpakorn University</h3>
