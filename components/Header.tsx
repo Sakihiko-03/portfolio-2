@@ -3,6 +3,7 @@ import React from 'react'
 import { SocialIcon } from 'react-social-icons';
 import { useTheme } from 'next-themes';
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 type Props = {}
 
@@ -32,20 +33,18 @@ export default function Header({ }: Props) {
                     duration: 1.5,
                 }}
                 className='flex flex-row items-center'>
-                {/* Social */}
-                <SocialIcon url='https://twitter.com/Sakihiko_03'
-                    fgColor='gray'
-                    bgColor='transparent' />
-                <SocialIcon url='https://web.facebook.com/supakorn.suriyamongkol/'
-                    fgColor='gray'
-                    bgColor='transparent' />
                 <SocialIcon url='https://github.com/Sakihiko-03'
                     fgColor='gray'
                     bgColor='transparent' />
-                <SocialIcon className='cursor-pointer'
-                    network='email'
+                <SocialIcon url='https://twitter.com/Sakihiko_03'
                     fgColor='gray'
                     bgColor='transparent' />
+                <Link href={'#email'}>
+                    <SocialIcon className='cursor-pointer'
+                        network='email'
+                        fgColor='gray'
+                        bgColor='transparent' />
+                </Link>
             </motion.div>
             <motion.div
                 initial={{
@@ -62,11 +61,7 @@ export default function Header({ }: Props) {
                     duration: 1.5,
                 }}
                 className='flex flex-row items-center text-gray-300 cursor-pointer'>
-                {/* <SocialIcon className='cursor-pointer'
-                    network='email'
-                    fgColor='gray'
-                    bgColor='transparent' /> */}
-                {/* <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get In Touch</p> */}
+                {/* <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Contact Me</p> */}
                 <div className='mr-4'>
                     <button
                         className=" rounded-full dark:bg-white dark:bg-opacity-10 bg-gray-500 bg-opacity-10 hover:bg-gray-400 hover:bg-opacity-5  w-9 h-9 m-1"
