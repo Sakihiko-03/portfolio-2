@@ -14,8 +14,8 @@ export default function Skill({ }: Props) {
             <div className='grid grid-cols-2 lg:grid-cols-4 gap-8 text-slate-400'>
 
                 <motion.div
-                    initial={{ opacity: 0, y: 45 }}
-                    whileInView={{ opacity: 1, y: 0 }}
+                    initial={{ opacity: 0, y: 45, scale: .5 }}
+                    whileInView={{ opacity: 1, y: 0,scale: 1 }}
                     transition={{ duration: .5 }}>
                     <div className='space-y-2 border dark:border-slate-700 border-slate-300 text-slate-400 p-4 rounded-lg'>
                         <p className='dark:text-white text-black font-semibold mb-4'>Programming Language</p>
@@ -53,8 +53,8 @@ export default function Skill({ }: Props) {
                 </motion.div>
 
                 <motion.div
-                    initial={{ opacity: 0, y: 40 }}
-                    whileInView={{ opacity: 1, y: 0 }}
+                    initial={{ opacity: 0, y: 40, scale: .8 }}
+                    whileInView={{ opacity: 1, y: 0, scale: 1 }}
                     transition={{ duration: .6 }}>
                     <div className='space-y-2 border h-full dark:border-slate-700 border-slate-300 text-slate-400 p-4 rounded-lg'>
                         <p className='dark:text-white text-black font-semibold mb-4'>Framework & Libraries</p>
@@ -82,8 +82,8 @@ export default function Skill({ }: Props) {
                 </motion.div>
 
                 <motion.div
-                    initial={{ opacity: 0, y: 24 }}
-                    whileInView={{ opacity: 1, y: 0 }}
+                    initial={{ opacity: 0, y: 24, scale: .5 }}
+                    whileInView={{ opacity: 1, y: 0, scale: 1 }}
                     transition={{ duration: .6 }}>
                     <div className='space-y-2 border h-full dark:border-slate-700 border-slate-300 text-slate-400 p-4 rounded-lg'>
                         <p className='dark:text-white text-black font-semibold mb-4'>Dev Tool</p>
@@ -109,8 +109,8 @@ export default function Skill({ }: Props) {
                 </motion.div>
 
                 <motion.div
-                    initial={{ opacity: 0, y: 28 }}
-                    whileInView={{ opacity: 1, y: 0 }}
+                    initial={{ opacity: 0, y: 28, scale: .6 }}
+                    whileInView={{ opacity: 1, y: 0, scale: 1 }}
                     transition={{ duration: 1 }}>
                     <div className='space-y-2 border h-full dark:border-slate-700 border-slate-300 text-slate-400 p-4 rounded-lg'>
                         <p className='dark:text-white text-black font-semibold mb-4'>Graphic</p>

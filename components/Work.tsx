@@ -51,12 +51,12 @@ export default class SimpleSlider extends Component {
                 <p className='dark:text-white text-black font-medium text-xl mb-4'>PROJECTS</p>
                 <Slider {...settings}>
                     <div className="p-4 md:w-1/3">
-                        <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg">
+                        <div className="shadow-md h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg">
                             {/* <img className="rounded-t-lg overflow-hidden" src='https://scontent.fbkk12-1.fna.fbcdn.net/v/t39.30808-6/321459732_526396949453716_4200402998008371909_n.jpg?stp=dst-jpg_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHYIZjagMHg2YGnViyNDrgmSBBGvJQ5lsxIEEa8lDmWzBjlhzvaUyAmfPTFDdB4mHs6g1vHPII3Tm60ZpoF_69r&_nc_ohc=m4oHZnKYP3wAX-tu76H&_nc_zt=23&_nc_ht=scontent.fbkk12-1.fna&oh=00_AfCGxcNKu1DicCZCEFhjLe5jUpC0FlcyifS2v6Oxi7Ni8w&oe=63ADA981'></img> */}
                             <Image className="rounded-t-lg overflow-hidden" src={Web} alt='' />
                             <div className=" p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CO-OP EDUCATION AT PEA</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">Kapacitor [Web App]</h1>
+                                <h1 className="title-font text-lg font-medium dark:text-white mb-3">Kapacitor [Web App]</h1>
                                 <p className="leading-relaxed mb-3 text-sm">Kapacitor is a peer-to-peer (P2P) energy exchange platform built on Polygon Blockchain. Electric power producers can supply electricity to the utility grid system to earn a utility token as KAP.</p>
                                 <div className="flex items-center flex-wrap ">
                                     <Link href={'https://kapacitor.me/'} className=''>
@@ -83,11 +83,11 @@ export default class SimpleSlider extends Component {
                         </div>
                     </div>
                     <div className="p-4 md:w-1/3">
-                        <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">
+                        <div className="shadow-md h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">
                             <Image className="rounded-t-lg overflow-hidden" src={Mobile} alt='' />
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CO-OP EDUCATION AT PEA</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">Kapacitor [Mobile App]</h1>
+                                <h1 className="title-font text-lg font-medium dark:text-white mb-3">Kapacitor [Mobile App]</h1>
                                 <p className="leading-relaxed mb-3 text-sm">Kapacitor is a peer-to-peer (P2P) energy exchange platform built on Polygon Blockchain. Electric power producers can supply electricity to the utility grid system to earn a utility token as KAP.</p>
                                 <div className="flex items-center flex-wrap ">
                                     <Link href={'https://play.google.com/store/apps/details?id=com.kapacitor.app'} className=''>
@@ -103,11 +103,11 @@ export default class SimpleSlider extends Component {
                         </div>
                     </div>
                     <div className="p-4 md:w-1/3">
-                        <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">
+                        <div className="shadow-md h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">
                             <Image className="rounded-t-lg overflow-hidden" src={Micro} alt='' height={4000} objectFit="cover" objectPosition="center" />
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">Microcontroller Class</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">Let's Study</h1>
+                                <h1 className="title-font text-lg font-medium dark:text-white mb-3">Let's Study</h1>
                                 <p className="leading-relaxed mb-3 text-sm">It is a project to notify when studying. It consists of LCD display, text to speech sound and line notify. Users can choose the mode they want and enter the daily subjects in the GUI. Simulate the operation using  Proteus, Arduino IDE and Python.</p>
                                 <div className="flex items-center flex-wrap ">
                                     <Link href={'https://github.com/Sakihiko-03/micro-project'} className=''>
@@ -123,34 +123,34 @@ export default class SimpleSlider extends Component {
                         </div>
                     </div>
                     <div className="p-4 md:w-1/3">
-                        <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">
+                        <div className="shadow-md h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg overflow-hidden">
                             <Image className="rounded-t-lg overflow-hidden" src={Coop} alt='' height={3000} objectFit="cover" objectPosition="center" />
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CO-OP EDUCATION AT PEA</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">University [Poster]</h1>
+                                <h1 className="title-font text-lg font-medium dark:text-white mb-3">University [Poster]</h1>
                                 <p className="leading-relaxed mb-3 text-sm">Poster presenting a 4-month co-operative education internship at PEA..</p>
                             </div>
                         </div>
                     </div>
                     <div className="p-4 md:w-1/3">
-                        <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg">
+                        <div className="shadow-md h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg">
                             <Image className="rounded-t-lg overflow-hidden" src={Internship} alt='' height={6000} objectFit="cover" objectPosition="center" />
                             <div className=" p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">INTERNSHIP AT PEA</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">University [Poster]</h1>
+                                <h1 className="title-font text-lg font-medium dark:text-white mb-3">University [Poster]</h1>
                                 <p className="leading-relaxed mb-3 text-sm">Poster reports what was gained from the internship during the first 2 months..</p>
                             </div>
                         </div>
                     </div>
                     <div className="p-4 md:w-1/3">
-                        <div className="h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg">
+                        <div className="shadow-md h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg">
                             <Image className="rounded-t-lg overflow-hidden" src={DIP} alt='' height={3000} objectFit="cover" objectPosition="center" />
                             <div className=" p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">DIP PROJECT</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">Highlighted Text Detection with Line Chatbot</h1>
+                                <h1 className="title-font text-lg font-medium dark:text-white mb-3">Highlighted Text Detection with Line Chatbot</h1>
                                 <p className="leading-relaxed mb-3 text-sm">Detect highlighted text from images sent in Line Chatbot to convert it into text and send it back.</p>
                                 <div className="flex items-center flex-wrap ">
-                                    <Link href={'https://kapacitor.me/'} className=''>
+                                    <Link href={'https://github.com/Sakihiko-03/DIP-project'} className=''>
                                         <button className='text-amber-400 inline-flex items-center md:mb-2 lg:mb-0'>github
                                             <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                 <path d="M5 12h14"></path>

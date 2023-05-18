@@ -44,11 +44,11 @@ function ContactMe({ }: Props) {
         <div className='flex flex-col space-y-8'>
           <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2'>
             <div className='grid grid-cols-2 space-x-2'>
-              <input {...register('name')} placeholder='Name' className='outline-none bg-slate-400/10 px-4 py-2 text-gray-500 placeholder-gray-500 transition-all dark:focus:text-amber-400/70 focus:text-amber-600/70 rounded-lg border-none overflow-hidden' type="text" />
-              <input {...register('email')} placeholder='Email' className='outline-none bg-slate-400/10 px-4 py-2 text-gray-500 placeholder-gray-500 transition-all dark:focus:text-amber-400/70 focus:text-amber-600/70 rounded-lg border-none overflow-hidden' type="text" />
+              <input {...register('name')} placeholder='Name' className='focus:ring-[.8px] focus:ring-amber-500 outline-none bg-slate-400/10 px-4 py-2 text-gray-500 placeholder-gray-500 transition-all dark:focus:text-amber-400/70 focus:text-amber-600/70 rounded-lg border-none overflow-hidden' type="text" />
+              <input {...register('email')} placeholder='Email' className='focus:ring-[.8px] focus:ring-amber-500 outline-none bg-slate-400/10 px-4 py-2 text-gray-500 placeholder-gray-500 transition-all dark:focus:text-amber-400/70 focus:text-amber-600/70 rounded-lg border-none overflow-hidden' type="text" />
             </div>
-            <input {...register('subject')} placeholder='Subject' className='outline-none bg-slate-400/10 px-4 py-2 text-gray-500 placeholder-gray-500 transition-all dark:focus:text-amber-400/70 focus:text-amber-600/70 rounded-lg border-none overflow-hidden' type="text" />
-            <textarea {...register('message')} placeholder='Message' className='outline-none bg-slate-400/10 px-4 py-2 text-gray-500 placeholder-gray-500 transition-all dark:focus:text-amber-400/70 focus:text-amber-600/70 rounded-lg border-none overflow-hidden' />
+            <input {...register('subject')} placeholder='Subject' className='focus:ring-[.8px] focus:ring-amber-500 outline-none bg-slate-400/10 px-4 py-2 text-gray-500 placeholder-gray-500 transition-all dark:focus:text-amber-400/70 focus:text-amber-600/70 rounded-lg border-none overflow-hidden' type="text" />
+            <textarea {...register('message')} placeholder='Message' className='focus:ring-[.8px] focus:ring-amber-500 outline-none bg-slate-400/10 px-4 py-2 text-gray-500 placeholder-gray-500 transition-all dark:focus:text-amber-400/70 focus:text-amber-600/70 rounded-lg border-none overflow-hidden' />
             <button type='submit' className='bg-amber-400 py-4 px-8 rounded-md text-black font-bold text-lg'>Submit</button>
           </form>
         </div>

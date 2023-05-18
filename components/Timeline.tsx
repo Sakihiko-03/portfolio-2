@@ -4,7 +4,7 @@ type Props = {}
 
 export default function Timeline({ }: Props) {
     return (
-        <section className="dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg">
+        <section className="dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg shadow-md">
             <div className="container max-w-5xl px-4 py-12 mx-auto">
                 <div className="grid gap-4 mx-4 sm:grid-cols-12">
                     <div className="col-span-12 sm:col-span-3">
@@ -25,14 +25,14 @@ export default function Timeline({ }: Props) {
                             </div>
                             <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-amber-400">
                                 <h3 className="text-xl font-semibold tracking-wide">Training in Silpakorn University</h3>
-                                <time className="text-xs tracking-wide uppercase dark:text-gray-400">2021-2022</time>
-                                <p className="mt-3">Basic Python, Silpakorn University, 2 days</p>
-                                <p>Programming and Image Processing using Python with OpenCV, 2 days</p>
+                                <time className="text-xs tracking-wide uppercase dark:text-gray-400 mb-3">2021-2022</time>
+                                {/* <p>Basic Python, 2 days</p>
+                                <p>Programming and Image Processing using Python with OpenCV, 2 days</p> */}
                                 <p>Develop Mobile Web Application with HTML, CSS, JavaScript, Bootstrap and php, 2 days</p>
                                 <p>Speech-to-Text and Text-to-Speech programming, 1 day</p>
                                 <p>Create LINE Chatbot using Python with Flask and wit.ai, 1 day</p>
-                                <p>Image Classification by CNN Model using Python with TensorFlow, 1 day</p>
-                                <p>Python with TensorFlow, 1 day</p>
+                                {/* <p>Image Classification by CNN Model using Python with TensorFlow, 1 day</p> */}
+                                {/* <p>Python with TensorFlow, 1 day</p> */}
                                 <p>Develop Android Mobile Application with Flutter for beginner, 3 day</p>
                             </div>
                             <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-amber-400">
