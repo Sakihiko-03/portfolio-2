@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
       <Header />
       <Profile />
-      <div className='mx-10 md:mx-16 lg:mx-24 mb-12 lg:mb-16'>
+      <div className='mx-10 md:mx-16 mb-12 lg:mb-16 xl:max-w-7xl lg:max-w-5xl items-center justify-center content-center lg:mx-auto'>
         <AboutMe />
         <Hobby />
         <Timeline />
@@ -36,7 +36,6 @@ export default function Home() {
         <Work />        
         {/* </section> */}
         <Design />
-        <CanvaEmbed />
         <ContactMe />
       </div>
     </div>

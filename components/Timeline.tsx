@@ -5,8 +5,8 @@ type Props = {}
 export default function Timeline({ }: Props) {
     return (
         <section className="dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg shadow-md">
-            <div className="container max-w-5xl px-4 py-12 mx-auto">
-                <div className="grid gap-4 mx-4 sm:grid-cols-12">
+            <div className="max-w-5xl lg:px-4 py-12 mx-auto">
+                <div className="grid gap-4 lg:mx-4 sm:grid-cols-12">
                     <div className="col-span-12 sm:col-span-3">
                         <div className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-amber-400">
                             <h3 className="text-3xl font-semibold">TIME-LINE</h3>

@@ -19,11 +19,11 @@ export default class SimpleSlider extends Component {
             customPaging: function (i: any) {
                 return (
                     <a className="">
-                        <span className="mx-2 rounded-l-full rounded-r-full h-4 w-4 block cursor-pointer transition-all "></span>
+                        <span className="mx-2 rounded-l-full rounded-r-full h-4 w-4 block cursor-pointer transition-all"></span>
                     </a>
                 );
             },
-            dotsClass: "slick-dots w-max absolute mt-20  ",
+            dotsClass: "slick-dots w-max absolute mt-20",
             infinite: true,
             speed: 500,
             slidesToShow: 3,
@@ -135,7 +135,7 @@ export default class SimpleSlider extends Component {
                     <div className="p-4 md:w-1/3">
                         <div className="shadow-md h-full dark:bg-white dark:bg-opacity-5 dark:backdrop-blur-md bg-gray-400 bg-opacity-5 backdrop-blur-md rounded-lg">
                             <Image className="rounded-t-lg overflow-hidden" src={Internship} alt='' height={6000} objectFit="cover" objectPosition="center" />
-                            <div className=" p-6">
+                            <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">INTERNSHIP AT PEA</h2>
                                 <h1 className="title-font text-lg font-medium dark:text-white mb-3">University [Poster]</h1>
                                 <p className="leading-relaxed mb-3 text-sm">Poster reports what was gained from the internship during the first 2 months..</p>

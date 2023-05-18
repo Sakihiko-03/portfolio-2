@@ -11,7 +11,7 @@ export default function Skill({ }: Props) {
     return (
         <div className='relative z-10 my-32'>
             <p className='dark:text-white text-black font-medium text-xl mb-4'>SKILLS</p>
-            <div className='grid grid-cols-2 lg:grid-cols-4 gap-8 text-slate-400'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-slate-400'>
 
                 <motion.div
                     initial={{ opacity: 0, y: 45, scale: .5 }}

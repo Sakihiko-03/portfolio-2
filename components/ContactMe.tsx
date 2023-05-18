@@ -15,7 +15,7 @@ function ContactMe({ }: Props) {
   const { register, handleSubmit } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = formData => {
     //  console.log(formData)   
-    window.location.href = `mailto:lek17622@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
+    window.location.href = `mailto:supakorn0416@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
   };
   return (
     <div id='projects'>
@@ -32,7 +32,7 @@ function ContactMe({ }: Props) {
             <div className='mr-4'>
               <EnvelopeIcon className='text-amber-400 h-7 w-7' />
             </div>
-            <p className='text-slate-400'>lek17622@gmail.com</p>
+            <p className='text-slate-400'>supakorn0416@gmail.com</p>
           </div>
           <div className='flex'>
             <div className='mr-4'>

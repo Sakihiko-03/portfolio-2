@@ -49,7 +49,7 @@ export default function Hero({ }: Props) {
                         <span className=''>{text}</span>
                         <Cursor cursorColor='#F7AB0A' />
                     </h1>
-                    <div className='space-x-6 lg:space-x-10'>
+                    <div className='space-x-2 md:space-x-6 lg:space-x-10'>
                         <Link href={'#about'}>
                             <button className='px-4 py-2 border-[.8px] border-gray-500 rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-amber-400/70 hover:text-amber-400/70'>About Me</button>
                         </Link>
