@@ -1,7 +1,13 @@
 import React from "react";
-import Model from '../components/3D';
+import Nemonz1 from '../public/assets/nemonz1.png'
+import Nemonz2 from '../public/assets/nemonz2.png'
+import Nemonz3 from '../public/assets/nemonz3.png'
+import Nemonz4 from '../public/assets/nemonz4.png'
+import Link from 'next/link';
+import Image from 'next/image'
 
-export default function Modal() {
+
+export default function ModalImg() {
     const [showModal, setShowModal] = React.useState(false);
     return (
         <>
@@ -43,8 +49,15 @@ export default function Modal() {
                                     <p className="my-4 text-slate-500 text-sm">
                                         ENX is a device for exchanging energy.
                                     </p>
-                                    <Model />
-                                    <div className="mb-4"></div>
+                                    <div className="flex flex-row">
+                                        <Image className="flex" src={Nemonz1} alt='' />
+                                        <Image className="flex" src={Nemonz2} alt='' />
+                                    </div>
+                                    <div className="flex flex-row mb-4">
+                                        <Image className="flex" src={Nemonz3} alt='' height={400} width={800}/>
+                                        <Image className="flex" src={Nemonz4} alt='' height={300} width={600}/>
+                                    </div>
+                                 
                                 </div>
                             </div>
                         </div>

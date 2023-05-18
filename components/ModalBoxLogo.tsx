@@ -1,7 +1,12 @@
 import React from "react";
-import Model from '../components/3D';
+import LogoRPA from '../public/assets/logo_rpa.png'
+import LogoKAP from '../public/assets/logo_kap.png'
+import LogoAni from '../public/assets/logo_ani.png'
+import Link from 'next/link';
+import Image from 'next/image'
 
-export default function Modal() {
+
+export default function ModalLogo() {
     const [showModal, setShowModal] = React.useState(false);
     return (
         <>
@@ -43,8 +48,14 @@ export default function Modal() {
                                     <p className="my-4 text-slate-500 text-sm">
                                         ENX is a device for exchanging energy.
                                     </p>
-                                    <Model />
-                                    <div className="mb-4"></div>
+                                    <div className="flex flex-row">
+                                        <Image className="" src={LogoKAP} alt='RPA' width={200} height={200}/>
+                                        <Image className="" src={LogoRPA} alt='Kapacitor' width={320} height={200}/>
+                                    </div>
+                                    <div className="flex mb-4">
+                                        <Image className="flex" src={LogoAni} alt='Animation' width={300} height={360}/>
+                                    </div>
+                                 
                                 </div>
                             </div>
                         </div>
