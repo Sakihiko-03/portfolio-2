@@ -41,21 +41,20 @@ export default function ModalLogo() {
                                     </div>
                                 </div>
                                 <div className="flex items-start justify-between p-2 mx-4 border-b border-solid border-slate-200 rounded-t">
-                                    <h3 className="text-xl font-semibold text-black">Energy Node Exchanger (ENX)</h3>
+                                    <h3 className="text-xl font-semibold text-black">Logo Design</h3>
                                 </div>
                                 {/*body*/}
                                 <div className="px-6 flex-auto">
                                     <p className="my-4 text-slate-500 text-sm">
-                                        ENX is a device for exchanging energy.
+                                        Logo & Logo Animation
                                     </p>
                                     <div className="flex flex-row">
-                                        <Image className="" src={LogoKAP} alt='RPA' width={200} height={200}/>
-                                        <Image className="" src={LogoRPA} alt='Kapacitor' width={320} height={200}/>
+                                        <Image className="" src={LogoKAP} alt='RPA' width={200} height={200} />
+                                        <Image className="" src={LogoRPA} alt='Kapacitor' width={340} height={200} />
                                     </div>
                                     <div className="flex mb-4">
-                                        <Image className="flex" src={LogoAni} alt='Animation' width={300} height={360}/>
+                                        <Image className="flex" src={LogoAni} alt='Animation' width={300} height={360} />
                                     </div>
-                                 
                                 </div>
                             </div>
                         </div>

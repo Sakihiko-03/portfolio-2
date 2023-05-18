@@ -42,22 +42,22 @@ export default function ModalImg() {
                                     </div>
                                 </div>
                                 <div className="flex items-start justify-between p-2 mx-4 border-b border-solid border-slate-200 rounded-t">
-                                    <h3 className="text-xl font-semibold text-black">Energy Node Exchanger (ENX)</h3>
+                                    <h3 className="text-xl font-semibold text-black">Nemonz official</h3>
                                 </div>
                                 {/*body*/}
                                 <div className="px-6 flex-auto">
                                     <p className="my-4 text-slate-500 text-sm">
-                                        ENX is a device for exchanging energy.
+                                        Emoticon, Channel Cover
                                     </p>
                                     <div className="flex flex-row">
-                                        <Image className="flex" src={Nemonz1} alt='' />
-                                        <Image className="flex" src={Nemonz2} alt='' />
+                                        <Image className="flex" src={Nemonz1} alt='emoticon' height={350} width={550} />
+                                        <Image className="flex" src={Nemonz2} alt='emoticon' height={350} width={550} />
                                     </div>
                                     <div className="flex flex-row mb-4">
-                                        <Image className="flex" src={Nemonz3} alt='' height={400} width={800}/>
-                                        <Image className="flex" src={Nemonz4} alt='' height={300} width={600}/>
+                                        <Image className="flex" src={Nemonz3} alt='cover' height={300} width={550} />
+                                        <Image className="flex" src={Nemonz4} alt='emoticon' height={200} width={500} />
                                     </div>
-                                 
+
                                 </div>
                             </div>
                         </div>
