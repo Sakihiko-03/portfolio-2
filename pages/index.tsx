@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div className='dark:bg-zinc-900 light:bg-gray-100 w-screen h-screen overflow-scroll snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-amber-400/80'>
       <Head>
-        <title>Supakorn's Portfolio</title>
+        <title>Supakorn&apos;s Portfolio</title>
       </Head>
       <Header />
       <Profile />

@@ -107,7 +107,7 @@ export default class SimpleSlider extends Component {
                             <Image className="rounded-t-lg overflow-hidden" src={Micro} alt='' height={4000} objectFit="cover" objectPosition="center" />
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">Microcontroller Class</h2>
-                                <h1 className="title-font text-lg font-medium dark:text-white mb-3">Let's Study</h1>
+                                <h1 className="title-font text-lg font-medium dark:text-white mb-3">Let&apos;s Study</h1>
                                 <p className="leading-relaxed mb-3 text-sm">It is a project to notify when studying. It consists of LCD display, text to speech sound and line notify. Users can choose the mode they want and enter the daily subjects in the GUI. Simulate the operation using  Proteus, Arduino IDE and Python.</p>
                                 <div className="flex items-center flex-wrap ">
                                     <Link href={'https://github.com/Sakihiko-03/micro-project'} className=''>
