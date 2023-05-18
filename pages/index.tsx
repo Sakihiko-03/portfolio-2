@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { useTheme } from 'next-themes';
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
@@ -13,8 +12,8 @@ import ContactMe from '../components/ContactMe';
 import ModalBox from '../components/ModalBox';
 import Model from '../components/3D';
 import Design from '../components/Design';
+import CanvaEmbed from '../components/canva';
 
-// import { Modal } from "flowbite-react"; 
 export default function Home() {
 
   const { theme, setTheme } = useTheme();
@@ -30,11 +29,8 @@ export default function Home() {
       </Head>
       <Header />
       {/* <section id='nav' className='snap-start'></section> */}
-      {/* <section id="about" className='snap-start'> */}
       <Profile />
-      {/* </section> */}
-
-      <div className='mx-12 md:mx-24 lg:mx-32 mb-12 lg:mb-16'>
+      <div className='mx-10 md:mx-16 lg:mx-24 mb-12 lg:mb-16'>
         {/* <section id='about' className='snap-center'> */}
         <AboutMe />
         {/* </section> */}
@@ -42,10 +38,10 @@ export default function Home() {
         <Timeline />
         <Skill />
         <Work />
-        <Design/>
-        <ContactMe />
+        <Design />
+        <CanvaEmbed />
         {/* <ModalBox /> */}
-
+        <ContactMe />
       </div>
     </div>
   )
